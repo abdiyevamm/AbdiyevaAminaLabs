@@ -7,5 +7,5 @@ def convert(grams):
     ounces = 28.3495231*grams
     return ounces
 
-grams = float(input())
+grams = input()
 print(convert(grams))
